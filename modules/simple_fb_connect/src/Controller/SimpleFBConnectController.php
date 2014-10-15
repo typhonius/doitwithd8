@@ -1,10 +1,22 @@
 <?php
 /**
  * @file
- * Contains \Drupal\page_example\Controller\PageExampleController.
+ * Contains \Drupal\simple_fb_connect\Controller\SimpleFBConnectController.
  */
 
 namespace Drupal\simple_fb_connect\Controller;
 
-use Drupal\Core\Url;
-use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
+class SimpleFBConnectController{
+    public function hello(){
+        // Assemble the markup.
+        $build = array(
+            '#markup' => t('hello world'),
+        );
+
+        return $build;
+    }
+}
+
+
+
+
