@@ -6,10 +6,10 @@ simple_fb_connect.simple_fb_connect_login:
   requirements:
     _role : 'anonymous'
 
-#simple_fb_connect.simple_fb_connect_admin:
-#  path: '/admin/config/people/simple-fb-connect'
-#  defaults:
-#    _title: 'Simple FB Connect Settings'
-#    _form: ''
-#  requirements:
-#    _permission: 'administer simple fb'
+simple_fb_connect.simple_fb_connect_admin:
+  path: '/admin/config/people/simple-fb-connect'
+  defaults:
+    _title: 'Simple FB Connect Settings'
+    _form: '\Drupal\simple_fb_connect\Form\SimpleFBConnectAdmin'
+  requirements:
+    _permission: 'administer simple fb'
