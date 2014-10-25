@@ -23,7 +23,6 @@ class SimpleFBConnectAdmin extends ConfigFormBase{
             '#type' => 'textfield',
             '#required' => TRUE,
             '#title' => t('Application ID'),
-            '#default_value' => $this->config('simple_fb_connect.settings')->get('simple_fb_connect_appid'),
             '#description' => t('Also called the <em>OAuth client_id</em> value on Facebook App settings pages. <a href="https://www.facebook.com/developers/createapp.php">Facebook Apps must first be created</a> before they can be added here.'),
         );
 
