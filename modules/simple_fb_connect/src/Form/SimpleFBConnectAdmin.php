@@ -3,8 +3,7 @@
 namespace Drupal\simple_fb_connect\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
-use Drupal\Core\Form\FormBase;
-
+use Drupal\Core\Form\FormStateInterface;
 
 
 class SimpleFBConnectAdmin extends ConfigFormBase{

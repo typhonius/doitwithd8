@@ -1,0 +1,6 @@
+simple_fb_connect.admin_settings:
+  title: 'Simple FB Connect Settings'
+  parent: user.admin_index
+  description: 'Control the various settings of the Simple FB Connect module'
+  route_name: simple_fb_connect.simple_fb_connect_admin
+
